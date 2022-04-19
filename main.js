@@ -102,10 +102,9 @@ Ball.prototype.collisionDetect = function () {
   }
 };
 
-// let testBall = new Ball(50, 100, 4, 4, "blue", 10);
-// testBall.x;
-// testBall.size;
-// testBall.color;
-// testBall.draw();
+let testBall = new Ball(50, 100, 4, 4, "blue", 10);
+testBall.x;
+testBall.size;
+testBall.color;
+testBall.draw();
 loop();
-
